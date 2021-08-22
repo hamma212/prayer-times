@@ -1,0 +1,65 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    font-family: 'PT sans';
+    background-color: #415d43;
+}
+/* general */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    border: none;
+    padding: 25px;
+    margin-top: 100px;
+    background-color: #709775;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+/* Enter city */
+
+.enter-city-container {
+    display: flex;
+    justify-content: center;
+    background-color: #8fb996;
+    padding: 10px;
+}
+
+.enter-city-form {
+    border: none;
+    width: 50%;
+    padding:20px;
+}
+
+.enter-btn {
+    background-color: #a1cca5;
+    padding:20px;
+    border: none;
+}
+*:focus {
+    outline: none;
+}   
+.enter-btn:hover {
+    background-color: #415d43;
+    color: #fdf0d5;
+    cursor: pointer;
+}
+/* times */
+.times-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 100px 20px 100px;
+    background-color: #8fb996;
+}
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p {
+    font-size: xx-large;
+}
